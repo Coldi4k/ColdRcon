@@ -16,9 +16,6 @@ If you have exit status 1 when using command
   1. Check if you entered ip, port, and password right
 
 If you still have error that means you using this apps to open ports
-Playit.gg
-(Other later)
-
 
 Playit.gg
   1. Open website and create new Tcp tunnel with port 25575
