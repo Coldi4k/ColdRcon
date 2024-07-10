@@ -3,13 +3,13 @@
 Conenctions Tutorial
 
   1. Open server.properties
-     1. find enable-rcon=false (change it to true)
-     2. find rcon.password= (add password)
-     3. find rcon.port=25575 (you can leave it 25575)
+     Find enable-rcon=false (change it to true)
+     Find rcon.password= (add password)
+     Find rcon.port=25575 (you can leave it 25575)
   2. Open Rcon.py
-     1. Write your server ip (WARING WORKS ONLY ON SOME SERVERS DETAILS YOU CAN FIND DOWN)
-     2. Write rcon port
-     3. Write rcon password
+     Write your server ip (WARING WORKS ONLY ON SOME SERVERS DETAILS YOU CAN FIND DOWN)
+     Write rcon port
+     Write rcon password
 
 If you have exit status 1 when using command
 
