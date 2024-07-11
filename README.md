@@ -14,7 +14,7 @@ Conenctions Tutorial
 If you have exit status 1 when using command
 
   1. Check if you entered ip, port, and password right
-
+- - - -
 If you still have error that means you using this apps to open ports
 
 Playit.gg
@@ -23,3 +23,5 @@ Playit.gg
   3. Open Rcon.py and use ip from playit.gg (like example.gl.at.ply.gg) for Server IP
   4. And use port from playit.gg (like 15953) for Server Port
   5. Write rcon password and click Connect
+
+More later
