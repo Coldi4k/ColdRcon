@@ -4,7 +4,7 @@
 
 3. Deleting Connecting part
   Delete codes sowed down
-||f||disconnect_button = tk.Button(root, text="Disconnect", command=disconnect_action, bg="#FF5733", fg="white", font=("Helvetica", 14))
+disconnect_button = tk.Button(root, text="Disconnect", command=disconnect_action, bg="#FF5733", fg="white", font=("Helvetica", 14))
 disconnect_button.pack_forget()
 
 spaces2 = tk.Button(root, bg="#313335", border=0, state="disabled")
