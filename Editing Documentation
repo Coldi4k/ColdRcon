@@ -1,0 +1,111 @@
+1. Download open source file unzip it
+
+2. Icon changing delete icon.ico and att your (WARNING WORK ONLY ON .ico)
+
+3. Deleting Connecting part
+  Delete codes sowed down
+||f||disconnect_button = tk.Button(root, text="Disconnect", command=disconnect_action, bg="#FF5733", fg="white", font=("Helvetica", 14))
+disconnect_button.pack_forget()
+
+spaces2 = tk.Button(root, bg="#313335", border=0, state="disabled")
+spaces2.pack_forget()
+
+# Create buttons for saving session and loading last session
+save_session_button = tk.Button(root, text="Save Session", command=save_session, bg="#7345e5", fg="white", font=("Helvetica", 14))
+save_session_button.pack(pady=10)
+
+spaces3 = tk.Button(root, bg="#313335", border=0, state="disabled")
+spaces3.pack_forget()
+
+load_session_button = tk.Button(root, text="Last Session Login", command=load_last_session, bg="#FF5733", fg="white", font=("Helvetica", 14))
+load_session_button.pack(pady=10)
+
+And
+
+def setup_connection():
+    try:
+        # Get user input from the entry widgets
+        server_ip = ip_entry.get()
+        server_port = port_entry.get()
+        password = password_entry.get()
+
+        # Hide the server setup widgets
+        ip_label.pack_forget()
+        spacesl1.pack_forget()
+
+        ip_entry.pack_forget()
+        spacese1.pack_forget()
+
+        port_label.pack_forget()
+        spacesl2.pack_forget()
+
+        port_entry.pack_forget()
+        spacese2.pack_forget()
+
+        password_label.pack_forget()
+        spacesl3.pack_forget()
+
+        password_entry.pack_forget()
+        spacese3.pack_forget()
+
+        spaces.pack_forget()
+        connect_button.pack_forget()
+
+        spaces2.pack_forget()
+        save_session_button.pack_forget()
+
+        spaces3.pack_forget()
+        load_session_button.pack_forget()
+
+        # Show the command entry, send button, and console label
+        spaccing.pack()
+        info_lable1.pack()
+        command_entry.pack()
+        spaccing5.pack()
+        send_button.pack()
+        spaccing2.pack()
+        info_lable2.pack()
+        grant_user_text.pack()
+        grant_user.pack()
+        spaccing4.pack()
+        op_grant.pack()
+        spaccing3.pack()
+        deop_grant.pack()
+        console_label.pack()
+
+        # Store the server details for command execution
+        root.server_ip = server_ip
+        root.server_port = server_port
+        root.password = password
+        disconnect_button.pack()
+    except Exception as e:
+        console_label.config(text=f"Error setting up connection: {e}")
+
+And
+
+    disconnect_button.pack_forget()
+
+    # Show the server setup widgets
+    ip_label.pack()
+    spacesl1.pack()
+
+    ip_entry.pack()
+    spacese1.pack()
+
+    port_label.pack()
+    spacesl2.pack()
+
+    port_entry.pack()
+    spacese2.pack()
+
+    password_label.pack()
+    spacesl3.pack()
+
+    password_entry.pack()
+
+    spaces.pack()
+    connect_button.pack()
+    spaces2.pack()
+    save_session_button.pack()
+    spaces3.pack()
+    load_session_button.pack()
