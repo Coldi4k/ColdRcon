@@ -1,0 +1,3 @@
+server_ip = "YOUR IP"
+server_port = "YOUR RCON PORT"
+server_password = "YOUR RCON PASSWORD"
