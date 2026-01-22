@@ -1,6 +1,6 @@
 # ColdRcon
 
-Conenctions Tutorial
+Connection Tutorial
 
   1. Open server.properties
      Find enable-rcon=false (change it to true)
