@@ -1,5 +1,0 @@
-Thanks for installing ColdRcon
-
-If you have error with desktop shortcut icon
-You can set it yourself right click by shortcut properties
-and click to Change Icon then you need to find it by installing path (default: C:\Program Files\ColdRcon)
