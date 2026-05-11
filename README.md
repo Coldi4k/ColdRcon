@@ -1,5 +1,7 @@
 # ColdRcon
 
+Source code of [RconCore.exe](https://github.com/Tiiffi/mcrcon)
+
 Connection Tutorial
 
   1. Open server.properties
@@ -18,7 +20,7 @@ If you have exit status 1 when using command
 If you still have error that means you using this apps to open ports
 
 Playit.gg
-  1. Open website and create new Tcp tunnel with port 25575
+  1. Open website and create new TCP tunnel with port 25575
   2. Then look at ip that you get for this tunnel example example.gl.at.ply.gg:15953
   3. Open app and use ip from playit.gg (like example.gl.at.ply.gg) for Server IP
   4. And use port from playit.gg (like 15953) for Server Port
